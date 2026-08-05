@@ -175,7 +175,7 @@ export function ReservationForm() {
       <div className="flex flex-col gap-3 sm:col-span-2 sm:flex-row sm:items-center">
         <button
           type="submit"
-          className="rounded-sm bg-primary px-6 py-3 font-display text-sm uppercase tracking-[0.2em] text-primary-foreground shadow-ember transition-transform hover:scale-[1.02]"
+          className="w-full shrink-0 rounded-sm bg-primary px-6 py-3 font-display text-sm whitespace-nowrap uppercase tracking-[0.2em] text-primary-foreground shadow-ember transition-transform hover:scale-[1.02] sm:w-auto"
         >
           Request Table
         </button>

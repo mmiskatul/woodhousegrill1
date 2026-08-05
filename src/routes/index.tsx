@@ -61,8 +61,9 @@ export const Route = createFileRoute("/")({
   }),
 });
 
+// Query by address (not brand name) so the embed pins the Gulshan branch, not another outlet.
 const MAP_EMBED = `https://www.google.com/maps?q=${encodeURIComponent(
-  "Woodhouse Grill, BTI Laureate, House 56, Road 11, Block F, Gulshan, Dhaka 1213",
+  "BTI Laureate, House 56, Road No. 11, Block F, Gulshan 2, Dhaka 1213, Bangladesh",
 )}&output=embed`;
 
 function Index() {
@@ -240,11 +241,11 @@ function Index() {
               />
               <div className="flex flex-col justify-center rounded-sm border border-border bg-card p-8">
                 <h3 className="font-display text-2xl uppercase leading-tight">
-                  Photography by the house
+                  Dinner, the way it should feel
                 </h3>
                 <p className="mt-3 text-sm text-muted-foreground">
-                  This grid is built to carry the restaurant's own photography — swap in the shoot
-                  and the layout holds.
+                  Low light, warm wood and the sound of the grill in the background. Come for the
+                  steak, stay for the room.
                 </p>
                 <a
                   href="#reservations"
