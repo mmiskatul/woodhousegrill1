@@ -62,8 +62,9 @@ export const CUTS = [
   },
 ] as const;
 
-export const HOURS = [
-  { days: "Monday – Thursday", time: "12:00 PM – 11:00 PM" },
-  { days: "Friday – Saturday", time: "12:00 PM – 11:30 PM" },
-  { days: "Sunday", time: "12:00 PM – 11:00 PM" },
-] as const;
+/**
+ * Opening hours were not supplied in the client brief, so the site points guests
+ * to the live Google Maps listing and the phone line instead of publishing times.
+ */
+export const HOURS_NOTE =
+  "Current opening hours are kept up to date on our Google Maps listing. For same-day tables, call us directly.";
