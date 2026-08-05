@@ -90,6 +90,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:locale", content: "en_US" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#231d19" },
+      { property: "og:title", content: "Woodhouse Grill | Steakhouse in Gulshan, Dhaka" },
+      { name: "twitter:title", content: "Woodhouse Grill | Steakhouse in Gulshan, Dhaka" },
+      { property: "og:description", content: "Texas-style steakhouse in Gulshan, Dhaka. Fire-grilled steaks, smoked brisket and Austin ribs. Reserve a table at Woodhouse Grill." },
+      { name: "twitter:description", content: "Texas-style steakhouse in Gulshan, Dhaka. Fire-grilled steaks, smoked brisket and Austin ribs. Reserve a table at Woodhouse Grill." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b17ccbce-e1ea-49c5-8973-47e718f9cb80/id-preview-33414e2d--b6010065-538e-493d-86d4-17abe0ea3e46.lovable.app-1785911751713.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b17ccbce-e1ea-49c5-8973-47e718f9cb80/id-preview-33414e2d--b6010065-538e-493d-86d4-17abe0ea3e46.lovable.app-1785911751713.png" },
     ],
     links: [
       {
